@@ -16,3 +16,40 @@
 .nav-link{
     color: #222222 !important;
 }
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+
+}
+
+.f-info-links a:hover{
+
+    text-decoration: underline;
+}
+
+.f-info{
+    height: 8rem;
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+
+.f-info-links{
+    width: 100%;
+    
+}
+
+.f-info-socials{
+    width: 100%;
+    font-size: 1.2 rem;
+    margin-right: 2 rem;
+}
+
+.f-info-socials i {
+    margin-right: 0.8rem;
+}
