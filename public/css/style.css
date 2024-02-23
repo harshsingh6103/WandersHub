@@ -1,12 +1,16 @@
-/* body{
-    background-color: rgb(223, 240, 240);
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
 
-} */
+}
+
+/* navbar */
 
 .navbar{
     height: 5rem;
     background-color: white;
 }
+
+/* footer */
 
 .fa-solid{
     color : #fe424d;
@@ -52,4 +56,34 @@
 
 .f-info-socials i {
     margin-right: 0.8rem;
+}
+
+/* cards */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0%;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+
+/* card effect */
+.overlay{
+    opacity: 2;
+} 
+.overlay:hover{
+    opacity: 0.6;
+    background-color: white;
 }
